@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #33AB5F, black)
+}
+
+
+
+img {
+    width: 540px;
+    height: a;
+    margin: 1px;
+    padding: 3px;
+    border: dotted black 3px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #13553d;
+}
+
+nav{
+    padding: 2%;
+}
+
+.greeting {
+    text-align: center;
+    border: solid white 3px;
+    background-color: white;
+    opacity: .88;
+    background-image: url("/img/roblox_1_img.png");
+    color: white;
+    border-radius: 15px;
+}
+
+.greeting h1{
+    font-weight: bold;
+}
+
+.greeting p{
+    font-size: 18px;
+}
+
+section{
+    text-align: center;
+    color: white;
+
+}
+
+.images {
+  display: inline-block;
+  padding: 5px;
+  height: auto;
+  width: auto;
+
+}
+
+#nintendo {
+  padding: 35px;
+}
